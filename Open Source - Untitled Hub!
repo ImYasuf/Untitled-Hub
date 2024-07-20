@@ -1,0 +1,64 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("Untitled HUB", "BloodTheme")
+local Tab = Window:NewTab("Home")
+local player = game.Players.LocalPlayer
+local displayName = player.DisplayName
+
+local Section = Tab:NewSection("Display Name: " .. displayName)
+local player = game.Players.LocalPlayer
+local username = player.Name
+
+local Section = Tab:NewSection("Username: " .. username)
+local player = game.Players.LocalPlayer
+local accountAge = player.AccountAge
+
+local Section = Tab:NewSection("Account Age: " .. accountAge .. " days")
+local gameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+
+local Section = Tab:NewSection("Game: " .. gameName)
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("List of Hub that i showcase in my YT")
+local Section = Tab:NewSection("Press the 3 Dot on the right. To see a Description!")
+Section:NewButton("SystemBroken", "My first showcase in YT", function()
+local credits = "SystemBroken made by system_calix"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+end)
+Section:NewButton("Yarhm Hub", "Murder Mystery Script", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-YARHM-12403"))()
+end)
+Section:NewButton("Sky Hub", "My first video that got popular", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-YARHM-12403"))()
+end)
+Section:NewButton("Fe Trolling Gui", "Trolling Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))()
+end)
+Section:NewButton("YwxoScripts", "Support 25+ Games", function()
+loadstring(game:HttpGet "https://raw.githubusercontent.com/ProjectpopCat/ywxoscripts/main/nuhuh.lua")()
+end)
+Section:NewButton("Malay Hub V2", "Fe Scripts", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OpscriptPRO/OP-script/main/Malay%20hub%20V2"))()
+end)
+Section:NewButton("Ultimate Trolling Hub V2", "By Orealated", function()
+getgenv().ActivateTheUltimateTrolly = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Orealated/Oreal/main/orealated%20Easy.gg%20UTH%20Loader", true))();
+end)
+Section:NewButton("Game Hub V6", "has 700+ features", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader"))()
+end)
+Section:NewButton("Fe animation Secret", "Free animations", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Gazer-Ha/Animated/main/G"))()
+end)
+Section:NewButton("Tiger X Hub V3", "has many features", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/balintTheDevX/Tiger-X-V3/main/Tiger%20X%20its%20Back"))()
+end)
+local Section = Tab:NewSection("New hub will be automatically shown everyday!")
+
+local Tab = Window:NewTab("Credit")
+local Section = Tab:NewSection("Made by Yasuf Showcase for making a hub!")
+local Section = Tab:NewSection("not the script i showcased tho.")
+local Section = Tab:NewSection("Current Version of the hub: V1")
+
+local Tab = Window:NewTab("Update Log")
+local Section = Tab:NewSection("---- No Update yet!")
+local Section = Tab:NewSection("Release it at 20 July, 2024!"
