@@ -127,6 +127,12 @@ end)
 
 Section = Tab:NewSection("New hub will be automatically shown everyday!")
 
+local Tab = Window:NewTab("Chatgpt")
+local Section = Tab:NewSection("All you see here was made by Ai")
+Section:NewButton("Calculator Ui", "Workint Calculator Ui", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/QTgFxT8y"))()
+end)
+
 Tab = Window:NewTab("Credit")
 Section = Tab:NewSection("Yasuf - Owner of the hub")
 Section = Tab:NewSection("Orealated - Helper")
