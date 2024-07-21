@@ -15,6 +15,11 @@ local accountAge = player.AccountAge
 
 local Section = Tab:NewSection("Account Age: " .. accountAge .. " days")
 local gameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+local executor = "???"
+if identifyexecutor then
+    executor = identifyexecutor()
+end
+local Section = Tab:NewSection("Executor: " .. executor)
 
 local Section = Tab:NewSection("Game: " .. gameName)
 local Tab = Window:NewTab("Main")
@@ -55,10 +60,27 @@ end)
 local Section = Tab:NewSection("New hub will be automatically shown everyday!")
 
 local Tab = Window:NewTab("Credit")
-local Section = Tab:NewSection("Made by Yasuf Showcase for making a hub!")
-local Section = Tab:NewSection("not the script i showcased tho.")
-local Section = Tab:NewSection("Current Version of the hub: V1")
-
+local Section = Tab:NewSection("Yasuf - Owner of the hub")
+local Section = Tab:NewSection("Orealated - Helper")
+local Section = Tab:NewSection("Other")
+Section:NewButton("My Discord Server", "Will copy the discord server", function()
+    setclipboard("https://discord.com/invite/vRK3B5HbjD")
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Notification";
+        Text = "Discord server link copied to clipboard!";
+        Duration = 5; -- duration in seconds
+    })
+    print("Successful Copied Discord Server")
+end)
+Section:NewButton("My YouTube Channel", "Will copy the YouTube channel link", function()
+    setclipboard("https://www.youtube.com/@YasufShowcase")
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Notification";
+        Text = "YouTube channel link copied to clipboard!";
+        Duration = 5; -- duration in seconds
+    })
+    print("Successful Copied YouTube Link")
+end)
 local Tab = Window:NewTab("Update Log")
 local Section = Tab:NewSection("---- No Update yet!")
 local Section = Tab:NewSection("Release it at 20 July, 2024!"
