@@ -26,36 +26,104 @@ local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("List of Hub that i showcase in my YT")
 local Section = Tab:NewSection("Press the 3 Dot on the right. To see a Description!")
 Section:NewButton("SystemBroken", "My first showcase in YT", function()
-local credits = "SystemBroken made by system_calix"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+    local credits = "SystemBroken made by system_calix"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Notification";
+        Text = "SystemBroken script loaded!";
+        Duration = 5;
+    })
 end)
+
 Section:NewButton("Yarhm Hub", "Murder Mystery Script", function()
-loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-YARHM-12403"))()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-YARHM-12403"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Notification";
+        Text = "Yarhm Hub script loaded!";
+        Duration = 5;
+    })
 end)
+
 Section:NewButton("Sky Hub", "My first video that got popular", function()
-loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-YARHM-12403"))()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-YARHM-12403"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Notification";
+        Text = "Sky Hub script loaded!";
+        Duration = 5;
+    })
 end)
+
 Section:NewButton("Fe Trolling Gui", "Trolling Script", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Notification";
+        Text = "Fe Trolling Gui script loaded!";
+        Duration = 5;
+    })
 end)
+
 Section:NewButton("YwxoScripts", "Support 25+ Games", function()
-loadstring(game:HttpGet "https://raw.githubusercontent.com/ProjectpopCat/ywxoscripts/main/nuhuh.lua")()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ProjectpopCat/ywxoscripts/main/nuhuh.lua"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Notification";
+        Text = "YwxoScripts script loaded!";
+        Duration = 5;
+    })
 end)
+
 Section:NewButton("Malay Hub V2", "Fe Scripts", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/OpscriptPRO/OP-script/main/Malay%20hub%20V2"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OpscriptPRO/OP-script/main/Malay%20hub%20V2"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Notification";
+        Text = "Malay Hub V2 script loaded!";
+        Duration = 5;
+    })
 end)
+
 Section:NewButton("Ultimate Trolling Hub V2", "By Orealated", function()
-getgenv().ActivateTheUltimateTrolly = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Orealated/Oreal/main/orealated%20Easy.gg%20UTH%20Loader", true))();
+    getgenv().ActivateTheUltimateTrolly = true
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Orealated/Oreal/main/orealated%20Easy.gg%20UTH%20Loader", true))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Notification";
+        Text = "Ultimate Trolling Hub V2 script loaded!";
+        Duration = 5;
+    })
 end)
+
 Section:NewButton("Game Hub V6", "has 700+ features", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Notification";
+        Text = "Game Hub V6 script loaded!";
+        Duration = 5;
+    })
 end)
+
 Section:NewButton("Fe animation Secret", "Free animations", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Gazer-Ha/Animated/main/G"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gazer-Ha/Animated/main/G"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Notification";
+        Text = "Fe animation Secret script loaded!";
+        Duration = 5;
+    })
 end)
+
 Section:NewButton("Tiger X Hub V3", "has many features", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/balintTheDevX/Tiger-X-V3/main/Tiger%20X%20its%20Back"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/balintTheDevX/Tiger-X-V3/main/Tiger%20X%20its%20Back"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Notification";
+        Text = "Tiger X Hub V3 script loaded!";
+        Duration = 5;
+    })
+end)
+
+Section:NewButton("Destruct Hex Gui", "Super OP", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/S28p8fN9"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Notification";
+        Text = "Destruct Hex Gui script loaded!";
+        Duration = 5;
+    })
 end)
 local Section = Tab:NewSection("New hub will be automatically shown everyday!")
 
@@ -84,3 +152,13 @@ end)
 local Tab = Window:NewTab("Update Log")
 local Section = Tab:NewSection("---- No Update yet!")
 local Section = Tab:NewSection("Release it at 20 July, 2024!"
+local Section = Tab:NewSection("---- First Update ( V2 )")
+local Section = Tab:NewSection("Updated it at 21 July, 2024!"
+local Section = Tab:NewSection("Added Notification Each Button")
+local Section = Tab:NewSection("First Helper ( Orealated)"
+local Section = Tab:NewSection("Added Discord Server Link")
+local Section = Tab:NewSection("Added Youtube Link"
+local Section = Tab:NewSection("New Version: V2")
+local Section = Tab:NewSection("More Update Soon!"
+
+
