@@ -125,6 +125,10 @@ Section:NewButton("Destruct Hex Gui", "Super OP", function()
     })
 end)
 
+Section:NewButton("The Strongest Battleground Script", "made by JH NN", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenxxxeth/JN-HH-GAMING-SBG-SCRIPT/main/Sbg%20script%20jnhh"))();
+end)
+
 Section = Tab:NewSection("New hub will be automatically shown everyday!")
 
 local Tab = Window:NewTab("Chatgpt")
