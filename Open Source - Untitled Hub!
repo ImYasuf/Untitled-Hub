@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
-local Window = Library.CreateLib("Untitled HUB", "BloodTheme")
+local Window = Library.CreateLib("Duplicate HUB { version: 3 }", "BloodTheme")
 local Tab = Window:NewTab("Home")
 local player = game.Players.LocalPlayer
 local displayName = player.DisplayName
@@ -33,6 +33,8 @@ Section:NewButton("SystemBroken", "My first showcase in YT", function()
         Duration = 5;
     })
 end)
+
+local Section = Tab:NewSection("Watch Showcase of this Script")
 
 Section:NewButton("Yarhm Hub", "Murder Mystery Script", function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-YARHM-12403"))()
